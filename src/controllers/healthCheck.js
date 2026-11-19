@@ -14,7 +14,7 @@ import { asyncHandler } from "../utils/async-handler.js"
 const healthCheckFunction = asyncHandler(async (req, res) => {
     res.status(200)
         .json(
-            new ApiResponse(200, {message: "Server is not running"})
+            new ApiResponse(200, {message: "Server is running"})
         );
 })
 

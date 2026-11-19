@@ -48,6 +48,10 @@ const userSchema = new Schema(
             trim: true
         },
 
+        forgotPasswordExp: {
+            type: Number,
+        },
+
         emailVerificationToken: {
             type: String,
             trim: true
